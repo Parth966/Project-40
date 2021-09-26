@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   <script src = "js/player.js"></script>
+   <script src = "js/form.js"></script>
+  
+<script>// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyChr_3lX5beKexsThCYfRnA1VkPIkNNSkg",
+  authDomain: "project-40-4358b.firebaseapp.com",
+  databaseURL: "https://project-40-4358b-default-rtdb.firebaseio.com",
+  projectId: "project-40-4358b",
+  storageBucket: "project-40-4358b.appspot.com",
+  messagingSenderId: "901209579960",
+  appId: "1:901209579960:web:d712fc4b850005e57c2f4d",
+  measurementId: "G-50MXGDV20N"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+</script>
+  
+  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+</body></html>
